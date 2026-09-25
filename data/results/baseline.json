@@ -1,0 +1,737 @@
+[
+  {
+    "case_id": "airsopure-franchise",
+    "runner": "baseline",
+    "analysis": {
+      "reporting_entity": "Airsopure International Group, Inc.",
+      "summary": "Keyword rules found 5 obligation type(s) across 92 clauses.",
+      "obligations": [
+        {
+          "kind": "license_functional",
+          "description": "License to use IP as it exists",
+          "timing": "point_in_time",
+          "rationale": "Keyword rule for 'License to use IP as it exists' matched 6 clause(s).",
+          "clauses": [
+            "c-003",
+            "c-007",
+            "c-015",
+            "c-017",
+            "c-038",
+            "c-040"
+          ],
+          "guidance": [
+            "606-10-55-58",
+            "606-10-55-62"
+          ]
+        },
+        {
+          "kind": "license_symbolic",
+          "description": "License to access IP over time",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'License to access IP over time' matched 40 clause(s).",
+          "clauses": [
+            "c-001",
+            "c-002",
+            "c-003",
+            "c-004",
+            "c-006",
+            "c-007",
+            "c-008",
+            "c-009",
+            "c-010",
+            "c-011",
+            "c-012",
+            "c-014",
+            "c-016",
+            "c-017",
+            "c-019",
+            "c-021",
+            "c-022",
+            "c-025",
+            "c-026",
+            "c-028",
+            "c-030",
+            "c-038",
+            "c-040",
+            "c-041",
+            "c-042",
+            "c-043",
+            "c-044",
+            "c-046",
+            "c-047",
+            "c-049",
+            "c-050",
+            "c-052",
+            "c-053",
+            "c-054",
+            "c-057",
+            "c-075",
+            "c-079",
+            "c-080",
+            "c-081",
+            "c-083"
+          ],
+          "guidance": [
+            "606-10-55-59",
+            "606-10-55-60"
+          ]
+        },
+        {
+          "kind": "support",
+          "description": "Support, maintenance and updates",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Support, maintenance and updates' matched 5 clause(s).",
+          "clauses": [
+            "c-006",
+            "c-009",
+            "c-011",
+            "c-012",
+            "c-038"
+          ],
+          "guidance": [
+            "606-10-25-14",
+            "606-10-25-27"
+          ]
+        },
+        {
+          "kind": "services",
+          "description": "Services (implementation, development, consulting)",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Services (implementation, development, consulting)' matched 9 clause(s).",
+          "clauses": [
+            "c-002",
+            "c-006",
+            "c-008",
+            "c-009",
+            "c-010",
+            "c-038",
+            "c-046",
+            "c-053",
+            "c-054"
+          ],
+          "guidance": [
+            "606-10-25-27",
+            "606-10-25-30"
+          ]
+        },
+        {
+          "kind": "goods",
+          "description": "Physical goods",
+          "timing": "point_in_time",
+          "rationale": "Keyword rule for 'Physical goods' matched 3 clause(s).",
+          "clauses": [
+            "c-010",
+            "c-014",
+            "c-051"
+          ],
+          "guidance": [
+            "606-10-25-30"
+          ]
+        }
+      ],
+      "consideration": {
+        "summary": "Fee, royalty, usage and incentive keywords.",
+        "variable": true,
+        "royalty_exception": true,
+        "rationale": "Any fee or pricing keyword is treated as variable; any royalty keyword triggers the exception.",
+        "clauses": [
+          "c-006",
+          "c-007",
+          "c-025",
+          "c-028",
+          "c-032",
+          "c-036",
+          "c-038",
+          "c-039",
+          "c-045",
+          "c-050",
+          "c-067",
+          "c-075",
+          "c-091"
+        ]
+      },
+      "open_questions": []
+    },
+    "scores": {
+      "obligation_f1": 0.5714285714285715,
+      "timing_accuracy": 1.0,
+      "consideration_correct": 1.0,
+      "grounding": 1.0,
+      "hallucinated": [],
+      "overall": 0.8571428571428572
+    },
+    "trace": [],
+    "model": null,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "seconds": 0.0
+  },
+  {
+    "case_id": "egain-hosting",
+    "runner": "baseline",
+    "analysis": {
+      "reporting_entity": "eGain Communications Corporation",
+      "summary": "Keyword rules found 6 obligation type(s) across 19 clauses.",
+      "obligations": [
+        {
+          "kind": "saas",
+          "description": "Hosted software access",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Hosted software access' matched 9 clause(s).",
+          "clauses": [
+            "c-001",
+            "c-002",
+            "c-004",
+            "c-005",
+            "c-006",
+            "c-008",
+            "c-010",
+            "c-011",
+            "c-016"
+          ],
+          "guidance": [
+            "606-10-55-54",
+            "606-10-25-27"
+          ]
+        },
+        {
+          "kind": "license_functional",
+          "description": "License to use IP as it exists",
+          "timing": "point_in_time",
+          "rationale": "Keyword rule for 'License to use IP as it exists' matched 1 clause(s).",
+          "clauses": [
+            "c-004"
+          ],
+          "guidance": [
+            "606-10-55-58",
+            "606-10-55-62"
+          ]
+        },
+        {
+          "kind": "license_symbolic",
+          "description": "License to access IP over time",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'License to access IP over time' matched 1 clause(s).",
+          "clauses": [
+            "c-017"
+          ],
+          "guidance": [
+            "606-10-55-59",
+            "606-10-55-60"
+          ]
+        },
+        {
+          "kind": "support",
+          "description": "Support, maintenance and updates",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Support, maintenance and updates' matched 5 clause(s).",
+          "clauses": [
+            "c-001",
+            "c-002",
+            "c-003",
+            "c-004",
+            "c-011"
+          ],
+          "guidance": [
+            "606-10-25-14",
+            "606-10-25-27"
+          ]
+        },
+        {
+          "kind": "services",
+          "description": "Services (implementation, development, consulting)",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Services (implementation, development, consulting)' matched 2 clause(s).",
+          "clauses": [
+            "c-002",
+            "c-005"
+          ],
+          "guidance": [
+            "606-10-25-27",
+            "606-10-25-30"
+          ]
+        },
+        {
+          "kind": "goods",
+          "description": "Physical goods",
+          "timing": "point_in_time",
+          "rationale": "Keyword rule for 'Physical goods' matched 4 clause(s).",
+          "clauses": [
+            "c-002",
+            "c-004",
+            "c-009",
+            "c-014"
+          ],
+          "guidance": [
+            "606-10-25-30"
+          ]
+        }
+      ],
+      "consideration": {
+        "summary": "Fee, royalty, usage and incentive keywords.",
+        "variable": true,
+        "royalty_exception": false,
+        "rationale": "Any fee or pricing keyword is treated as variable; any royalty keyword triggers the exception.",
+        "clauses": [
+          "c-002",
+          "c-006",
+          "c-008",
+          "c-016",
+          "c-017"
+        ]
+      },
+      "open_questions": []
+    },
+    "scores": {
+      "obligation_f1": 0.2857142857142857,
+      "timing_accuracy": 1.0,
+      "consideration_correct": 1.0,
+      "grounding": 1.0,
+      "hallucinated": [],
+      "overall": 0.7619047619047619
+    },
+    "trace": [],
+    "model": null,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "seconds": 0.0
+  },
+  {
+    "case_id": "fcc-terpene-supply",
+    "runner": "baseline",
+    "analysis": {
+      "reporting_entity": "Florida Chemical Company, LLC",
+      "summary": "Keyword rules found 2 obligation type(s) across 35 clauses.",
+      "obligations": [
+        {
+          "kind": "support",
+          "description": "Support, maintenance and updates",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Support, maintenance and updates' matched 1 clause(s).",
+          "clauses": [
+            "c-017"
+          ],
+          "guidance": [
+            "606-10-25-14",
+            "606-10-25-27"
+          ]
+        },
+        {
+          "kind": "goods",
+          "description": "Physical goods",
+          "timing": "point_in_time",
+          "rationale": "Keyword rule for 'Physical goods' matched 4 clause(s).",
+          "clauses": [
+            "c-003",
+            "c-007",
+            "c-008",
+            "c-017"
+          ],
+          "guidance": [
+            "606-10-25-30"
+          ]
+        }
+      ],
+      "consideration": {
+        "summary": "Fee, royalty, usage and incentive keywords.",
+        "variable": true,
+        "royalty_exception": false,
+        "rationale": "Any fee or pricing keyword is treated as variable; any royalty keyword triggers the exception.",
+        "clauses": [
+          "c-013",
+          "c-018",
+          "c-023",
+          "c-024"
+        ]
+      },
+      "open_questions": []
+    },
+    "scores": {
+      "obligation_f1": 0.6666666666666666,
+      "timing_accuracy": 1.0,
+      "consideration_correct": 1.0,
+      "grounding": 1.0,
+      "hallucinated": [],
+      "overall": 0.8888888888888888
+    },
+    "trace": [],
+    "model": null,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "seconds": 0.0
+  },
+  {
+    "case_id": "garman-license-maintenance",
+    "runner": "baseline",
+    "analysis": {
+      "reporting_entity": "Garman Routing Systems, Inc.",
+      "summary": "Keyword rules found 5 obligation type(s) across 25 clauses.",
+      "obligations": [
+        {
+          "kind": "license_functional",
+          "description": "License to use IP as it exists",
+          "timing": "point_in_time",
+          "rationale": "Keyword rule for 'License to use IP as it exists' matched 5 clause(s).",
+          "clauses": [
+            "c-001",
+            "c-002",
+            "c-004",
+            "c-019",
+            "c-020"
+          ],
+          "guidance": [
+            "606-10-55-58",
+            "606-10-55-62"
+          ]
+        },
+        {
+          "kind": "license_symbolic",
+          "description": "License to access IP over time",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'License to access IP over time' matched 1 clause(s).",
+          "clauses": [
+            "c-016"
+          ],
+          "guidance": [
+            "606-10-55-59",
+            "606-10-55-60"
+          ]
+        },
+        {
+          "kind": "support",
+          "description": "Support, maintenance and updates",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Support, maintenance and updates' matched 6 clause(s).",
+          "clauses": [
+            "c-001",
+            "c-003",
+            "c-012",
+            "c-013",
+            "c-015",
+            "c-019"
+          ],
+          "guidance": [
+            "606-10-25-14",
+            "606-10-25-27"
+          ]
+        },
+        {
+          "kind": "services",
+          "description": "Services (implementation, development, consulting)",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Services (implementation, development, consulting)' matched 4 clause(s).",
+          "clauses": [
+            "c-003",
+            "c-007",
+            "c-008",
+            "c-011"
+          ],
+          "guidance": [
+            "606-10-25-27",
+            "606-10-25-30"
+          ]
+        },
+        {
+          "kind": "goods",
+          "description": "Physical goods",
+          "timing": "point_in_time",
+          "rationale": "Keyword rule for 'Physical goods' matched 2 clause(s).",
+          "clauses": [
+            "c-005",
+            "c-013"
+          ],
+          "guidance": [
+            "606-10-25-30"
+          ]
+        }
+      ],
+      "consideration": {
+        "summary": "Fee, royalty, usage and incentive keywords.",
+        "variable": true,
+        "royalty_exception": false,
+        "rationale": "Any fee or pricing keyword is treated as variable; any royalty keyword triggers the exception.",
+        "clauses": [
+          "c-003",
+          "c-004",
+          "c-012",
+          "c-014",
+          "c-016",
+          "c-020"
+        ]
+      },
+      "open_questions": []
+    },
+    "scores": {
+      "obligation_f1": 0.7499999999999999,
+      "timing_accuracy": 1.0,
+      "consideration_correct": 0.5,
+      "grounding": 1.0,
+      "hallucinated": [],
+      "overall": 0.75
+    },
+    "trace": [],
+    "model": null,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "seconds": 0.0
+  },
+  {
+    "case_id": "jhu-patent-royalty",
+    "runner": "baseline",
+    "analysis": {
+      "reporting_entity": "The Johns Hopkins University",
+      "summary": "Keyword rules found 3 obligation type(s) across 64 clauses.",
+      "obligations": [
+        {
+          "kind": "license_functional",
+          "description": "License to use IP as it exists",
+          "timing": "point_in_time",
+          "rationale": "Keyword rule for 'License to use IP as it exists' matched 13 clause(s).",
+          "clauses": [
+            "c-001",
+            "c-008",
+            "c-009",
+            "c-013",
+            "c-015",
+            "c-028",
+            "c-029",
+            "c-031",
+            "c-038",
+            "c-040",
+            "c-049",
+            "c-050",
+            "c-062"
+          ],
+          "guidance": [
+            "606-10-55-58",
+            "606-10-55-62"
+          ]
+        },
+        {
+          "kind": "license_symbolic",
+          "description": "License to access IP over time",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'License to access IP over time' matched 1 clause(s).",
+          "clauses": [
+            "c-047"
+          ],
+          "guidance": [
+            "606-10-55-59",
+            "606-10-55-60"
+          ]
+        },
+        {
+          "kind": "support",
+          "description": "Support, maintenance and updates",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Support, maintenance and updates' matched 2 clause(s).",
+          "clauses": [
+            "c-024",
+            "c-025"
+          ],
+          "guidance": [
+            "606-10-25-14",
+            "606-10-25-27"
+          ]
+        }
+      ],
+      "consideration": {
+        "summary": "Fee, royalty, usage and incentive keywords.",
+        "variable": true,
+        "royalty_exception": true,
+        "rationale": "Any fee or pricing keyword is treated as variable; any royalty keyword triggers the exception.",
+        "clauses": [
+          "c-010",
+          "c-011",
+          "c-015",
+          "c-016",
+          "c-017",
+          "c-018",
+          "c-019",
+          "c-021",
+          "c-030",
+          "c-031",
+          "c-039",
+          "c-040",
+          "c-049",
+          "c-050",
+          "c-051",
+          "c-052",
+          "c-053",
+          "c-054",
+          "c-055",
+          "c-056",
+          "c-057",
+          "c-058",
+          "c-062",
+          "c-063"
+        ]
+      },
+      "open_questions": []
+    },
+    "scores": {
+      "obligation_f1": 0.5,
+      "timing_accuracy": 1.0,
+      "consideration_correct": 1.0,
+      "grounding": 1.0,
+      "hallucinated": [],
+      "overall": 0.8333333333333334
+    },
+    "trace": [],
+    "model": null,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "seconds": 0.0
+  },
+  {
+    "case_id": "ssd-app-development",
+    "runner": "baseline",
+    "analysis": {
+      "reporting_entity": "DOT COM LLC, OBA Seattle Software Developers",
+      "summary": "Keyword rules found 6 obligation type(s) across 59 clauses.",
+      "obligations": [
+        {
+          "kind": "saas",
+          "description": "Hosted software access",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Hosted software access' matched 3 clause(s).",
+          "clauses": [
+            "c-048",
+            "c-056",
+            "c-057"
+          ],
+          "guidance": [
+            "606-10-55-54",
+            "606-10-25-27"
+          ]
+        },
+        {
+          "kind": "license_functional",
+          "description": "License to use IP as it exists",
+          "timing": "point_in_time",
+          "rationale": "Keyword rule for 'License to use IP as it exists' matched 6 clause(s).",
+          "clauses": [
+            "c-021",
+            "c-022",
+            "c-053",
+            "c-054",
+            "c-055",
+            "c-058"
+          ],
+          "guidance": [
+            "606-10-55-58",
+            "606-10-55-62"
+          ]
+        },
+        {
+          "kind": "license_symbolic",
+          "description": "License to access IP over time",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'License to access IP over time' matched 2 clause(s).",
+          "clauses": [
+            "c-021",
+            "c-053"
+          ],
+          "guidance": [
+            "606-10-55-59",
+            "606-10-55-60"
+          ]
+        },
+        {
+          "kind": "support",
+          "description": "Support, maintenance and updates",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Support, maintenance and updates' matched 3 clause(s).",
+          "clauses": [
+            "c-034",
+            "c-053",
+            "c-055"
+          ],
+          "guidance": [
+            "606-10-25-14",
+            "606-10-25-27"
+          ]
+        },
+        {
+          "kind": "services",
+          "description": "Services (implementation, development, consulting)",
+          "timing": "over_time",
+          "rationale": "Keyword rule for 'Services (implementation, development, consulting)' matched 7 clause(s).",
+          "clauses": [
+            "c-001",
+            "c-011",
+            "c-026",
+            "c-045",
+            "c-046",
+            "c-049",
+            "c-056"
+          ],
+          "guidance": [
+            "606-10-25-27",
+            "606-10-25-30"
+          ]
+        },
+        {
+          "kind": "goods",
+          "description": "Physical goods",
+          "timing": "point_in_time",
+          "rationale": "Keyword rule for 'Physical goods' matched 4 clause(s).",
+          "clauses": [
+            "c-021",
+            "c-025",
+            "c-054",
+            "c-055"
+          ],
+          "guidance": [
+            "606-10-25-30"
+          ]
+        }
+      ],
+      "consideration": {
+        "summary": "Fee, royalty, usage and incentive keywords.",
+        "variable": true,
+        "royalty_exception": true,
+        "rationale": "Any fee or pricing keyword is treated as variable; any royalty keyword triggers the exception.",
+        "clauses": [
+          "c-004",
+          "c-005",
+          "c-007",
+          "c-008",
+          "c-009",
+          "c-011",
+          "c-012",
+          "c-014",
+          "c-015",
+          "c-016",
+          "c-017",
+          "c-018",
+          "c-019",
+          "c-021",
+          "c-029",
+          "c-030",
+          "c-032",
+          "c-033",
+          "c-034",
+          "c-035",
+          "c-050",
+          "c-056",
+          "c-057"
+        ]
+      },
+      "open_questions": []
+    },
+    "scores": {
+      "obligation_f1": 0.2857142857142857,
+      "timing_accuracy": 1.0,
+      "consideration_correct": 0.5,
+      "grounding": 1.0,
+      "hallucinated": [],
+      "overall": 0.5952380952380952
+    },
+    "trace": [],
+    "model": null,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "seconds": 0.0
+  }
+]

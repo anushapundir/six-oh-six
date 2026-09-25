@@ -1,0 +1,52 @@
+{
+  "runners": {
+    "baseline": {
+      "obligation_f1": 0.51,
+      "timing_accuracy": 1.0,
+      "consideration_correct": 0.833,
+      "grounding": 1.0,
+      "overall": 0.781,
+      "cases": 6,
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "seconds": 0.0
+    },
+    "agent": {
+      "obligation_f1": 0.833,
+      "timing_accuracy": 1.0,
+      "consideration_correct": 1.0,
+      "grounding": 1.0,
+      "overall": 0.944,
+      "cases": 6,
+      "input_tokens": 514057,
+      "output_tokens": 48517,
+      "seconds": 565.1
+    }
+  },
+  "cases": {
+    "airsopure-franchise": {
+      "baseline": 0.857,
+      "agent": 0.889
+    },
+    "egain-hosting": {
+      "baseline": 0.762,
+      "agent": 0.889
+    },
+    "fcc-terpene-supply": {
+      "baseline": 0.889,
+      "agent": 1.0
+    },
+    "garman-license-maintenance": {
+      "baseline": 0.75,
+      "agent": 1.0
+    },
+    "jhu-patent-royalty": {
+      "baseline": 0.833,
+      "agent": 1.0
+    },
+    "ssd-app-development": {
+      "baseline": 0.595,
+      "agent": 0.889
+    }
+  }
+}
