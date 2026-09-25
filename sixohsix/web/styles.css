@@ -130,6 +130,7 @@ details.trace summary { cursor: pointer; color: var(--muted); font-size: 12px; t
   border: 1px solid var(--accent); color: var(--accent); background: #fff; font-size: 13px;
 }
 .btn.primary { background: var(--accent); color: #fff; }
+#run { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .btn[disabled] { opacity: .5; cursor: wait; }
 .empty { color: var(--muted); padding: 24px 0; }
 .error { color: var(--bad); font-size: 13px; margin-top: 10px; }

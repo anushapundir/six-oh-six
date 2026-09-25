@@ -167,17 +167,41 @@ async function selectCase(id) {
 }
 
 async function runAgent(btn) {
+  const id = state.detail.case.id;
+  const url = `/api/cases/${encodeURIComponent(id)}/run`;
   btn.disabled = true;
-  btn.textContent = "Running…";
+  btn.textContent = "Starting…";
   try {
-    await api(`/api/cases/${encodeURIComponent(state.detail.case.id)}/run`, { method: "POST" });
-    state.cases = await api("/api/cases");
-    await selectCase(state.detail.case.id);
+    await api(url, { method: "POST" });
   } catch (e) {
     $("#run-error").textContent = e.message;
     btn.disabled = false;
     btn.textContent = "Run agent";
+    return;
   }
+  const timer = setInterval(async () => {
+    const run = await api(url).catch(() => null);
+    if (!run) return;
+    if (run.status !== "running") clearInterval(timer);
+    const here = state.detail.case.id === id;
+    if (run.status === "done") {
+      state.cases = await api("/api/cases");
+      if (here) await selectCase(id);
+      else renderList();
+      return;
+    }
+    // The panel may have re-rendered (runner toggle), so look the button up each tick.
+    const b = $("#run");
+    if (!here || !b) return;
+    if (run.status === "error") {
+      b.disabled = false;
+      b.textContent = "Run agent";
+      $("#run-error").textContent = run.error;
+    } else {
+      b.disabled = true;
+      b.textContent = `Running · step ${run.step_count}${run.steps.length ? ` · ${run.steps.at(-1)}` : ""}`;
+    }
+  }, 1000);
 }
 
 async function renderScoreboard() {
