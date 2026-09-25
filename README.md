@@ -6,7 +6,7 @@ Every software license, hosting deal and franchise agreement eventually lands on
 
 six-oh-six works through that question on real contracts filed with the SEC. A tool-using agent reads the contract clause by clause, applies the five steps of ASC 606 from the seller's side, and cites the exact clauses and guidance paragraphs behind every conclusion. It then drafts a Word memo in the format an auditor expects. An eval harness grades each analysis against labeled answers, because a conclusion someone has to defend to an auditor should be measured, not trusted.
 
-![Cases view: a software license with maintenance. Hovering a cited clause lights it up in the contract.](docs/cases.png)
+![Cases view: a software license with maintenance. Each call is checked against the answer key; its clause tags jump to the proof.](docs/cases.png)
 
 ![Scoreboard: keyword rules vs the agent on six real contracts.](docs/scoreboard.png)
 
@@ -91,7 +91,7 @@ Without an API key, `eval` runs the keyword baseline only, and the UI shows the 
 
 | Variable | Purpose |
 | --- | --- |
-| `ANTHROPIC_API_KEY` | Enables the agent in `eval` and the "Run agent" button. |
+| `ANTHROPIC_API_KEY` | Enables the agent in `eval` and the "Run AI agent" button. |
 | `SIXOHSIX_MODEL` | Model id for the agent. Defaults to `claude-sonnet-5`. |
 | `SIXOHSIX_DATA` | Alternate data root, used by the tests' fixture case. |
 
