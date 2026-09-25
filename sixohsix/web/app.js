@@ -3,11 +3,11 @@ const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "
 const pct = (x) => (x == null ? "–" : x.toFixed(2));
 const TIMING = { over_time: "Over time", point_in_time: "Point in time" };
 const METRICS = [
-  ["overall", "Overall"],
-  ["obligation_f1", "Obligation F1"],
-  ["timing_accuracy", "Timing"],
-  ["consideration_correct", "Consideration"],
-  ["grounding", "Grounding"],
+  ["overall", "Overall", "Average of the three accuracy scores, scaled down by any citations that don't exist."],
+  ["obligation_f1", "Right promises", "How well the performance obligations found match the reference (F1 over obligation kinds)."],
+  ["timing_accuracy", "Right timing", "Share of matched obligations recognized at the right time: over time or at a point in time."],
+  ["consideration_correct", "Right pricing terms", "Whether variable consideration and the royalty exception were called correctly."],
+  ["grounding", "Citations real", "Share of cited clause ids that actually exist in the contract."],
 ];
 
 const state = { cases: [], detail: null, runner: "agent" };
@@ -181,13 +181,13 @@ async function renderScoreboard() {
   const cell = (v, top) => `<td class="num ${v != null && v === top && runners.length > 1 ? "win" : ""}">${pct(v)}</td>`;
   $("#scoreboard").innerHTML = `
     <h2>Scoreboard</h2>
-    <p>Mean scores over every case each runner has been evaluated on. Overall is the mean of obligation F1, timing and consideration, multiplied by grounding.</p>
+    <p>Mean scores over every case each runner has been evaluated on. Overall is the average of right promises, right timing and right pricing terms, multiplied by the share of citations that are real. Hover a metric for what it measures.</p>
     <table class="board">
       <thead><tr><th>Metric</th>${runners.map((n) => `<th>${n}</th>`).join("")}</tr></thead>
       <tbody>
-        ${METRICS.map(([k, label]) => {
+        ${METRICS.map(([k, label, tip]) => {
           const vals = runners.map((n) => r[n]?.[k]);
-          return `<tr><td>${label}</td>${vals.map((v) => cell(v, best(vals))).join("")}</tr>`;
+          return `<tr><td title="${esc(tip)}">${label}</td>${vals.map((v) => cell(v, best(vals))).join("")}</tr>`;
         }).join("")}
         <tr><td>Cases run</td>${runners.map((n) => `<td class="num">${r[n]?.cases ?? "–"}</td>`).join("")}</tr>
         <tr><td>Tokens (in / out)</td>${runners.map((n) => `<td class="num">${r[n] ? `${r[n].input_tokens.toLocaleString()} / ${r[n].output_tokens.toLocaleString()}` : "–"}</td>`).join("")}</tr>
