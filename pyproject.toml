@@ -1,0 +1,31 @@
+[project]
+name = "six-oh-six"
+version = "0.1.0"
+description = "An AI technical accountant for ASC 606: reads the contract, cites the clause, drafts the memo, and grades itself."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+dependencies = [
+  "anthropic>=0.60",
+  "fastapi>=0.115",
+  "pydantic>=2.8",
+  "python-docx>=1.1",
+  "python-dotenv>=1.0",
+  "uvicorn>=0.30",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "httpx>=0.27"]
+
+[project.scripts]
+six-oh-six = "sixohsix.cli:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["sixohsix"]
+
+[tool.setuptools.package-data]
+sixohsix = ["web/*"]
