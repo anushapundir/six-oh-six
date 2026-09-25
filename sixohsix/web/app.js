@@ -67,16 +67,22 @@ function renderContract() {
   $("#clauses").innerHTML = c.clauses
     .map(
       (cl) => `<li class="clause" id="clause-${esc(cl.id)}">
-        <div class="clause-head"><span class="id-badge">${esc(cl.id)}</span><h3>${esc(cl.heading)}</h3></div>
+        <div class="clause-head"><span class="id-badge">${esc(cl.id)}</span><h3>${esc(cl.heading)}</h3><span class="cited-tag">cited</span></div>
         <p>${esc(cl.text)}</p>
       </li>`,
     )
     .join("");
 }
 
+function markCited(analysis) {
+  const cited = new Set(analysis ? [...analysis.obligations.flatMap((o) => o.clauses), ...analysis.consideration.clauses] : []);
+  document.querySelectorAll(".clause").forEach((el) => el.classList.toggle("cited", cited.has(el.id.slice("clause-".length))));
+}
+
 function renderAnalysis() {
   const { detail, runner } = state;
   const result = detail.results[runner];
+  markCited(result?.analysis);
   document.querySelectorAll(".runner-toggle button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.runner === runner));
   const runBtn = runner === "agent"
     ? `<button class="btn primary" id="run" ${detail.can_run ? "" : "disabled title='Set ANTHROPIC_API_KEY to run the agent'"}>${result ? "Re-run agent" : "Run agent"}</button>`
