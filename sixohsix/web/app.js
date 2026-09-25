@@ -50,7 +50,7 @@ function renderList() {
     .map(
       (c) => `<li><button data-case="${esc(c.id)}" aria-current="${state.detail?.case.id === c.id}">
         <span class="case-title">${esc(c.title)}</span>
-        <span class="case-why">${esc(c.why_hard)}</span>
+        <span class="case-why" title="${esc(c.why_hard)}">${esc(c.why_hard)}</span>
         <span class="chips">
           <span class="score-chip">baseline <b>${pct(c.overall.baseline)}</b></span>
           <span class="score-chip">agent <b>${pct(c.overall.agent)}</b></span>

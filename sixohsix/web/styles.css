@@ -50,7 +50,10 @@ h2, h3, p { margin: 0; }
 .case-list button:hover { border-color: #cfd6e0; }
 .case-list button[aria-current="true"] { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent); }
 .case-title { font-weight: 600; }
-.case-why { color: var(--muted); font-size: 12.5px; }
+.case-why {
+  color: var(--muted); font-size: 12.5px;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden;
+}
 .chips { display: flex; gap: 6px; flex-wrap: wrap; }
 .score-chip { font-family: var(--mono); font-size: 11.5px; padding: 1px 7px; border-radius: 999px; background: #f1f2f4; color: var(--muted); }
 .score-chip b { color: var(--ink); font-weight: 600; }
