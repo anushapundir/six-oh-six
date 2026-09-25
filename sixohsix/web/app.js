@@ -100,8 +100,15 @@ function renderAnalysis() {
   const c = a.consideration;
 
   $("#analysis").innerHTML = `
-    <div class="scores">${METRICS.map(([k, label]) => `<div class="metric ${k === "overall" ? "overall" : ""}"><b>${pct(s[k])}</b><span>${label}</span></div>`).join("")}</div>
-    <p>${esc(a.summary)}</p>
+    <div class="scores">${METRICS.map(([k, label, tip]) => `<div class="metric ${k === "overall" ? "overall" : ""}" title="${esc(tip)}"><b>${pct(s[k])}</b><span>${label}</span></div>`).join("")}</div>
+
+    <div class="verdict">
+      ${rows.map(({ o, kindOk, timingOk }) => `<div class="verdict-row"><span>${esc(detail.kinds[o.kind])}</span><span class="pill">${TIMING[o.timing]}</span>${mark(kindOk && timingOk)}</div>`).join("")}
+      ${missed.map((r) => `<div class="verdict-row"><span class="muted">Not found: ${esc(detail.kinds[r.kind])}</span><span class="pill">${TIMING[r.timing]}</span>${mark(false)}</div>`).join("")}
+      <div class="verdict-row"><span>Variable consideration: <strong>${c.variable ? "yes" : "no"}</strong></span>${mark(c.variable === ref.variable)}</div>
+      <div class="verdict-row"><span>Royalty exception: <strong>${c.royalty_exception ? "yes" : "no"}</strong></span>${mark(c.royalty_exception === ref.royalty_exception)}</div>
+    </div>
+    <details class="reasoning"><summary>${runner === "agent" ? "Agent's" : "Baseline's"} reasoning</summary><p>${esc(a.summary)}</p></details>
 
     <div class="section"><h3>Performance obligations</h3>
       ${rows
