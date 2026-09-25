@@ -58,7 +58,7 @@ def render(case: Case, analysis: Analysis) -> bytes:
         ["Entity", analysis.reporting_entity],
         ["Customer", case.customer],
         ["Contract", f"{case.title} ({case.contract_type})"],
-        ["Date", date.today().strftime("%B %-d, %Y")],
+        ["Date", f"{date.today():%B} {date.today().day}, {date.today().year}"],
         ["Prepared by", "six-oh-six agent (draft)"],
     ])
     for row in header.rows:
