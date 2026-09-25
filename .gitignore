@@ -6,3 +6,5 @@ __pycache__/
 *.egg-info/
 out/
 .DS_Store
+tests/fixtures/results/
+tests/fixtures/scoreboard.json

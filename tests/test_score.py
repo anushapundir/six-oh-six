@@ -6,7 +6,7 @@ from sixohsix.cases import load_cases
 from sixohsix.schema import Analysis, Consideration, Kind, Obligation, RefObligation, Timing
 from sixohsix.score import score
 
-CASE, REF = load_cases(Path(__file__).parent / "fixtures")[0]
+CASE, REF = load_cases(Path(__file__).parent / "fixtures" / "cases")[0]
 
 
 def perfect() -> Analysis:

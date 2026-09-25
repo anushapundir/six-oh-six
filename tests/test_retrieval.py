@@ -3,7 +3,7 @@ from pathlib import Path
 from sixohsix.cases import load_cases
 from sixohsix.retrieval import search
 
-CASE, _ = load_cases(Path(__file__).parent / "fixtures")[0]
+CASE, _ = load_cases(Path(__file__).parent / "fixtures" / "cases")[0]
 
 
 def test_ranks_the_clause_that_answers_the_query_first():

@@ -6,12 +6,13 @@ from sixohsix.schema import Case, Reference
 REPO = Path(__file__).resolve().parents[1]
 
 
-def cases_root() -> Path:
-    return Path(os.environ.get("SIXOHSIX_DATA", REPO / "data" / "cases"))
+def data_root() -> Path:
+    """Holds cases/, results/ and scoreboard.json. SIXOHSIX_DATA points it elsewhere, e.g. tests/fixtures."""
+    return Path(os.environ.get("SIXOHSIX_DATA", REPO / "data"))
 
 
 def load_cases(root: Path | None = None) -> list[tuple[Case, Reference]]:
-    root = root or cases_root()
+    root = root or data_root() / "cases"
     out = []
     for d in sorted(p for p in root.iterdir() if (p / "case.json").exists()):
         case = Case.model_validate_json((d / "case.json").read_text())
