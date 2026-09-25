@@ -2,6 +2,7 @@
 
 import json
 import os
+import threading
 from concurrent.futures import ThreadPoolExecutor
 from statistics import mean
 from typing import Literal
@@ -17,6 +18,8 @@ Runner = Literal["baseline", "agent"]
 RUNNERS: tuple[Runner, ...] = ("baseline", "agent")
 SCORE_FIELDS = ("obligation_f1", "timing_accuracy", "consideration_correct", "grounding", "overall")
 Results = TypeAdapter(list[Result])
+# Guards the read-merge-write of results files. In-process only.
+_write = threading.Lock()
 
 
 def results_path(runner: Runner):
@@ -28,11 +31,11 @@ def load_results(runner: Runner) -> list[Result]:
     return Results.validate_json(p.read_bytes()) if p.exists() else []
 
 
-def run_one(runner: Runner, case: Case, ref: Reference) -> Result:
+def run_one(runner: Runner, case: Case, ref: Reference, on_step=None) -> Result:
     if runner == "baseline":
         analysis = baseline.analyze(case)
         return Result(case_id=case.id, runner=runner, analysis=analysis, scores=score(analysis, ref, case))
-    analysis, trace, usage, seconds = agent.analyze(case)
+    analysis, trace, usage, seconds = agent.analyze(case, on_step=on_step)
     return Result(
         case_id=case.id,
         runner=runner,
@@ -60,12 +63,16 @@ def run(runner: Runner, cases: list[tuple[Case, Reference]], only: str | None = 
     with ThreadPoolExecutor(max_workers=4 if runner == "agent" else 1) as pool:
         fresh = [r for r in pool.map(attempt, todo) if r]
 
-    # Keep earlier results for cases not rerun; drop results for cases that no longer exist.
-    ids = {c.id for c, _ in cases}
-    rerun = {r.case_id for r in fresh}
-    merged = [r for r in load_results(runner) if r.case_id in ids and r.case_id not in rerun] + fresh
-    save(runner, sorted(merged, key=lambda r: r.case_id))
+    merge(runner, fresh, {c.id for c, _ in cases})
     return fresh
+
+
+def merge(runner: Runner, fresh: list[Result], ids: set[str]) -> None:
+    """Keep earlier results for cases not rerun; drop results for cases that no longer exist."""
+    rerun = {r.case_id for r in fresh}
+    with _write:
+        merged = [r for r in load_results(runner) if r.case_id in ids and r.case_id not in rerun] + fresh
+        save(runner, sorted(merged, key=lambda r: r.case_id))
 
 
 def save(runner: Runner, results: list[Result]) -> None:

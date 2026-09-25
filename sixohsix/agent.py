@@ -109,7 +109,7 @@ class AgentError(RuntimeError):
     pass
 
 
-def analyze(case: Case, max_turns: int = MAX_TURNS) -> tuple[Analysis, list[Step], dict[str, int], float]:
+def analyze(case: Case, max_turns: int = MAX_TURNS, on_step=None) -> tuple[Analysis, list[Step], dict[str, int], float]:
     client = anthropic.Anthropic()
     start = time.monotonic()
     messages: list[dict] = [{"role": "user", "content": opening(case)}]
@@ -147,6 +147,8 @@ def analyze(case: Case, max_turns: int = MAX_TURNS) -> tuple[Analysis, list[Step
             else:
                 out, err = run_tool(case, call.name, call.input)
             trace.append(Step(tool=call.name, input=call.input, output=out[:TRACE_CHARS]))
+            if on_step:
+                on_step(trace[-1])
             results.append({"type": "tool_result", "tool_use_id": call.id, "content": out, "is_error": err})
         if analysis:
             return analysis, trace, usage, time.monotonic() - start
