@@ -1,0 +1,306 @@
+{
+  "id": "ssd-app-development",
+  "title": "Seattle Software Developers / Pelican Delivers app development",
+  "contract_type": "Custom software development agreement with milestone billing",
+  "reporting_entity": "DOT COM LLC, OBA Seattle Software Developers",
+  "customer": "Pelican Delivers Inc.",
+  "why_hard": "Milestone billing and per-milestone acceptance invite milestone-by-milestone revenue, but the deliverables form one integrated custom build that the client owns as work for hire and must pay for through termination, which points to over-time recognition.",
+  "source": "PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement2.txt + PelicanDeliversInc_20200211_S-1_EX-10.3_11975895_EX-10.3_Development Agreement1.txt",
+  "clauses": [
+    {
+      "id": "c-001",
+      "heading": "SOFTWARE DEVELOPMENT AGREEMENT THIS SOFTWARE DEVELOPMENT",
+      "text": "SOFTWARE DEVELOPMENT AGREEMENT THIS SOFTWARE DEVELOPMENT AGREEMENT (Agreement ) is made December 3rd, 2018 (the Effective Date) by and between DOT COM LLC, OBA Seattle Software Developers, a Delaware limited liability company (Developer ), and (Client) Pelican Delivers Inc. for the performance of software design services and software development as detailed herein (Developer and Client are individually referred to herein as a Party, and collectively as the Parties)."
+    },
+    {
+      "id": "c-002",
+      "heading": "1. Term",
+      "text": "1. Term Unless otherwise provided herein, this Agreement will commence on the Effective Date and continue through the completion or termination of Developer's services and work product as mutually agreed upon between the Parties (the Project)."
+    },
+    {
+      "id": "c-003",
+      "heading": "2. Statement of Work",
+      "text": "2. Statement of Work Developer will design, develop, and deliver, satisfactory to Client, the \"Pelican Delivers Application Phase 1\" (collectively, the Subject Program), and all elated Project services (collectively, the Services), Project work product (collectively, the Deliverables), and user manuals and other written material that describe he functionality or assist in the use of the Subject Program (collectively, the Documentation), pursuant to the Project specifications detailed in the SO (collectively, Specifications), as described in the enclosed statement of work (the SOW; as provided in APPENDIX A hereto). The Parties may execute multiple SOWs should there be multiple or separate Projects. In the event of any conflict or inconsistency between the terms of this Agreement and any SOW, the terms of this Agreement will control."
+    },
+    {
+      "id": "c-004",
+      "heading": "3. Delivery Schedule",
+      "text": "3. Delivery Schedule; Acceptance; Change Orders 3.1 DELIVERY SCHEDULE; MILESTONES Each SOW will include a delivery schedule for Services and Deliverables (the Delivery Schedule) that will identify mutual agreed upon Project time deadlines concerning the performance of Services, delivery of Deliverables, Client testing of the same (collectively, Milestones), as well as a final Subject Program delivery date (Final Delivery Date)."
+    },
+    {
+      "id": "c-005",
+      "heading": "3.2 PROJECT DELIVERY AND INSTALLATION",
+      "text": "3.2 PROJECT DELIVERY AND INSTALLATION As detailed in a SOW hereto, Developer will provide certain Services, Deliverables and Documentation to Client upon a designated Milestone in accordance with such Milestone's specific Specifications (collectively, Specific Specifications). Prior to completing a Milestone, Developer will: (a) inform Client of the availability of each portion of a Deliverable otherwise required be delivered by such Milestone date for testing by Client (he Acceptance Test Date); and (b) deliver to Client sue Deliverable (each a Milestone Deliverable) including the source code and object code form compatible with the platform(s) described in the SOW for such Milestone Deliverable."
+    },
+    {
+      "id": "c-006",
+      "heading": "3.3 ACCEPTANCE AND BETA TESTS",
+      "text": "3.3 ACCEPTANCE AND BETA TESTS Within the time periods designated in the SOW, Client shall perform any tests or evaluation of the Subject Program (collectively, the Acceptance Tests) after the Acceptance Test Date, to determine whether each Deliverable: (a) conforms to the SOW; and (b) performs repetitively on an appropriate variety of data and platforms, without failure, as more fully described in the Specifications. Upon completion of II Deliverables, the Acceptance Tests shall be performed on the Subject Program in its entirety in order to determine whether the Subject Program (i) meets the Specifications and (ii) operates with internal consistency."
+    },
+    {
+      "id": "c-007",
+      "heading": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE",
+      "text": "3.4 ACCEPTANCE OF MILESTONE DELIVERABLE; CHANGE REQUESTS Client will notify Developer in writing of any failure of a Milestone Deliverable to comply with the Specifications, or of any other objections, corrections, changes or amendments required (a Change Request), within ten (10) days of such Milestone's Acceptance Test Date. Any Change Request shall be sufficient to identify, with clarity, any objection, correction, change or amendment to such Milestone Deliverable. In the absence of a Change Request from Client within the time periods detailed herein, the Milestone Deliverable will be deemed accepted by Client."
+    },
+    {
+      "id": "c-008",
+      "heading": "3.5 REJECTION OF MILESTONE DELIVERABLE",
+      "text": "3.5 REJECTION OF MILESTONE DELIVERABLE If any Milestone Deliverable does not satisfy the Client's Acceptance Test and Client provides Developer a Change Request concerning the same, Developer will have twenty (20) days from the receipt of such Change Request to correct the deficiencies, errors, corrections, modifications, bug- fixes or changes to the Deliverables as identified in the Change Request. Upon Client's receipt of a Milestone Deliverable following Developer's modification pursuant to Change Request (a Modified Deliverable), Client will have five (5) days to inspect, test and reevaluate such Modified Deliverable to determine acceptance. If Client does not notify Developer of any further failures, objections, changes, defects, or bugs in such Modified Deliverable, the Modified Deliverable will be deemed accepted by Client."
+    },
+    {
+      "id": "c-009",
+      "heading": "3.6 FAILURE OF DEVELOPER TO CORRECT DEFECTS",
+      "text": "3.6 FAILURE OF DEVELOPER TO CORRECT DEFECTS Should Developer reasonably fail to meet the requirements of Section 3. or Section 3.5 of this Agreement such that a Milestone Deliverable or Modified Deliverable does not satisfy Client's reasonable acceptance criteria within the time periods set forth in the same, Client will have the option of: (a) repeating the procedures set forth in Section 3.4 or Section 3.5 Above; or (b) terminating this Agreement pursuant to Section 8 of this agreement."
+    },
+    {
+      "id": "c-010",
+      "heading": "3.7 FINAL DELIVERABLE AND SUBJECT PROGRAM TESTING",
+      "text": "3.7 FINAL DELIVERABLE AND SUBJECT PROGRAM TESTING Notwithstanding anything contained herein, upon completion of the Final Deliverable set out in the Specifications thereto, Client will perform Acceptance Test on the Subject Program within fifteen (15) calendar days from the Acceptance Test Date in order to determine whether the Subject Program satisfies the acceptance criteria and operates with internal consistency. If the completed Subject Program does not satisfy the Client's Acceptance Tests and Client provides Developer a Change Request concerning the same, Developer will have fifteen (15) calendar days from the receipt of such Change Request to correct the deficiencies errors, corrections, modifications, bug-fixes or changes. Client shall then have ten (10) additional days to inspect, test and reevaluate the completed and modified Subject Program or Final Deliverable. If the Subject Program or Final Deliverable still does not satisfy the Client's acceptance criteria and/or the Acceptance Tests, Client shall have the option of either: (a) repeating the procedure set forth above; or (b) terminating this Agreement pursuant to Section 12 of this Agreement . If the Client does not notify the Developer of any further failures, objections, changes, or other defects, or bugs of or in the Subject Program via a Change Request, Client will be deemed to have accepted the Subject Program."
+    },
+    {
+      "id": "c-011",
+      "heading": "3.8 CLIENT ASSISTANCE",
+      "text": "3.8 CLIENT ASSISTANCE Client shall provide Developer assistance to complete the Services, and produce the Deliverables, as reasonably requested, including but not limited to providing the necessary information or documentation required from Developer for the development of the Subject Program. Client shall conduct all Acceptance Tests in good faith and shall not delay any acceptance of any Service or Deliverable without reasonable justification. The evaluation of any Service or Deliverable for any Acceptance Test will be based on material compliance with applicable Specifications and Client shall not arbitrarily withhold acceptance of any Milestone Deliverable or Subject Program."
+    },
+    {
+      "id": "c-012",
+      "heading": "3.9 DEVELOPER DUTIES FOR ACCEPTANCE TESTS",
+      "text": "3.9 DEVELOPER DUTIES FOR ACCEPTANCE TESTS Unless otherwise agreed by the Parties in writing, regardless of the acceptance or rejection of any Milestone Deliverable, Developer shall continue to perform all Services and deliver all Deliverables in accordance with the Delivery Schedule. Developer shall use its best efforts to make any necessary corrections, modifications, bug-fixes, or other changes promptly to complete the Services and Deliverables by the Final Delivery Date."
+    },
+    {
+      "id": "c-013",
+      "heading": "4.10 CLIENT TERMINATION SERVICES",
+      "text": "4.10 CLIENT TERMINATION SERVICES If elected pursuant to the Agreement, Developer will provide Client Termination Assistance Services at an hourly rate of $[125.00 per hour]."
+    },
+    {
+      "id": "c-014",
+      "heading": "4. Change Orders",
+      "text": "4. Change Orders Sometimes during the term of this Agreement change order may or may not be requested by Client. However, If Client requests that Developer provide any additional Services or Deliverables or functionalities beyond those detail d in an applicable SOW, or requests a modification or change to any of the Services or Deliverables if possible, client will: (A) Submit to Developer, by means of a written order, all requests r additional services that alter, amend, enhance, add to, or delete any of the Services or Deliverables (a Change Order); (B) Developer will evaluate each Change Order, and within five (5) days of its receipt, will provide Client with (i) the change in Fee costs as a result of the Change Order, (ii) the impact, if any, of the Change Order on an aspect of the Delivery Schedule including any Milestone Date, Acceptance Test Date, or the Final Delivery Date, and (iii) the availability of Developer' resources to carry out the additional requested services detailed in the Change Order; (C) If Developer agrees to carry out the proposed Change Order, the Parties will execute an amended SOW or Change Order reflecting the Service and Deliverable changes; (D) Upon duly executing an amended SOW or executed Change Ord r, Developer will begin performance in accordance with the same. Developer has no obligation to perform any additional services before receiving the duly- executed amended SOW or executed Change Order, and Client has no obligation to pay Developer any Fees for services performed pursuant to an amended SOW or Change Order before the same; and (E) Once fully completed and executed, each amended SOW or Change Order will be deemed to be incorporated into and be part of this Agreement and will constitute a formal amendment to this Agreement."
+    },
+    {
+      "id": "c-015",
+      "heading": "5. Payment",
+      "text": "5. Payment 5.1 FEES AND EXPENSES Client will pay fees to Developer for Project Services and Deliverables as Described in the SOW (the Fees). Developer will pay its own expenses for the Project (collectively, the Expenses) unless stated otherwise in the SOW."
+    },
+    {
+      "id": "c-016",
+      "heading": "5.2 FEES AND EXPENSES",
+      "text": "5.2 FEES AND EXPENSES All Fees shall be due pursuant to the Fee payment schedule provided in a SOW hereto (the Fee Payment Schedule). Client's failure to remit payment to Developer for Fees due and owning will constitute a material breach of this Agreement."
+    },
+    {
+      "id": "c-017",
+      "heading": "5.3 BONUS",
+      "text": "5.3 BONUS If Developer completes the Services, and delivers the Deliverables, as reasonably accepted by Client, upon a date prior to the Final Delivery Date as specific in a SOW hereto, Client will pay Developer a bonus Fee in the amount detailed in the applicable SOW (the Bonus)."
+    },
+    {
+      "id": "c-018",
+      "heading": "5.4 PAYMENT",
+      "text": "5.4 PAYMENT Client shall pay Fees, Expenses (if any), and any Bonus to Developer via w re to Developer's bank account at: Chase Bank 1955 156th Avenue NE Bellevue, Washington 98007 425-590-4010 Routing: 325070760 Account :676313880"
+    },
+    {
+      "id": "c-019",
+      "heading": "6. Intellectual Property",
+      "text": "6. Intellectual Property 6.1 WORK MADE FOR HIRE AND ASSIGNMENT OF RIGHTS Except as otherwise detailed in this Agreement, the Parties acknowledge and agree that the Subject Program including without limitation the Deliverables and Documentation (collectively, the Works) are \"work made for hire\" in accordance with the U.S. Copyright Act, 17 U.S.C. § 101 et seq. Accordingly, Client will be the copyright author and owner of all of the Works. To the extent permissible, Developer hereby assigns and transfers to Client all copyright and other intellectual property ownership in the Works. Developer agrees to assist Client, as well as execute any documents reasonably necessary, to perfect the assignment of such rights to Client. Developer acknowledges and agrees that the payment of Fees and a Bonus (if any), as referenced in Section 5 of this Agreement, shall be the full consideration to Developer for the assignment of rights herein. Upon payment in full of all obligations hereunder, Developer unconditionally and irrevocably grants to Client all software, improvements, code and other work produce produced by the Developer during the course of this agreement. The code shall be the sole and exclusive property of the Client."
+    },
+    {
+      "id": "c-020",
+      "heading": "6.2 DEVELOPER'S INTELLECTUAL PROPERTY",
+      "text": "6.2 DEVELOPER'S INTELLECTUAL PROPERTY Notwithstanding the provisions of Section 6.1 of this Agreement, the Par acknowledge and agree that: (a) Developer may use its proprietary information software (collectively, Developer Technology) in providing Services, and Deliverables, to Client; and (b) Developer shall retain full ownership over its Developer Technology. If Developer uses any of its Developer Technology in any of the Works, Client will: (i) not acquire any proprietary or ownership rights to any of Developer Technology by virtue of this Agreement; and (ii) agree not to market or use any Developer Technology as an independent \"stand-alone\" program without the prior written consent of Developer."
+    },
+    {
+      "id": "c-021",
+      "heading": "6.3 LICENSE TO CLIENT'S INTELLECTUAL PROPERTY",
+      "text": "6.3 LICENSE TO CLIENT'S INTELLECTUAL PROPERTY To assist Developer to complete all Project-related Services and deliverable Deliverables to Client in a complete and timely manner, Client shall provide Developer access and licensed rights to the following as necessary to complete the Project: (a) text, software, graphics, photos, sounds, music, videos, designs, compilations, magnetic translations, digital conversion interactive features and the like (collectively, the Content); (b) any trademarks, service marks, trade dress and logos, whether owned or licensed by Client (collectively, the Marks); and (c) any know-how, methodologies, equipment, or processes used by Client in its operations {collectively, the Procedures); and (d) Client's Confidential Information (as defined below). As such, Client hereby grants Developer a royalty-free, worldwide, license to use its Content, Marks, Procedures and Confidential Information in order to complete the Project. Client hereby acknowledge and agrees that Client waives all moral rights to be identified as the author on any and all material or content identified under this subsection of this Agreement."
+    },
+    {
+      "id": "c-022",
+      "heading": "6.4 CONFIDENTIALITY AND NON-DISCLOSURE",
+      "text": "6.4 CONFIDENTIALITY AND NON-DISCLOSURE 6.4.1 Confidential Information. Each Party acknowledges and agrees that it will receive confidential information and trade secrets from the other Party in otherwise carrying out the actions contemplated by this Agreement (collective, Confidential Information). Confidential Information does not include information at: (a) is available to the public or that becomes available to the public through no act or failure to act by the receiving Party (Receiving Party); (b) is known to the Receiving Party prior to the date of disclosure by the disclosing Party (Disclosing Party), unless the Receiving Party agreed to keep such information in confidence at the time of receipt of the information; (c) is properly obtained hereafter from a source that is not under an obligation of confidentiality with respect to such information; or (d) is developed independently by the Receiving Party without reference to or use of the Disclosing Party's Confidential Information. 6.4.2 Non-Disclosure. Neither Party shall use or disclose Confidential Information of the other Party to any third party, without the written consent of the Disclosing Party of such Confidential Information. Receiving Party agrees to undertake reasonable measures to maintain and preserve the Confidential Information of the Disclosing Party in confidence, which measures shall be no less than the measures taken by the Receiving Party to protect its own confidential information and in no vent shall be less than reasonable care. Upon expiration or termination of this Agreement, Receiving Party will immediately destroy or erase all copies of documents or materials containing any Confidential Information provided by Disclosing Party and, upon the Disclosing Party's request, promptly confirm destruction of same by signing and returning to the Disclosing Party a certificate of destruction reasonably satisfactory to the Disclosing Party. 6.4.3 Derivatives. All Confidential Information, and any Derivatives thereof whether created by Client or Developer, remain the property of the Disclosing Party and no license or other rights to any Confidential Information or Derivatives is granted or implied hereby."
+    },
+    {
+      "id": "c-023",
+      "heading": "6.4 CONFIDENTIALITY AND NON-DISCLOSURE (cont. 2)",
+      "text": "For purposes of this Agreement, Derivatives shall mean: (a) for copyrightable or copyrighted material, any translation, abridgment, revision or other form in which an existing work may be recast, transformed or adapted ;(b) for patentable or patented material, any improvement thereon; and (c) for material which is protected by trade secret, any new material derived from such existing trade secret material, including new material which may be protected under applicable copyright, patent, or trade secret law. 6.4.4 Notification of Suspected Disclosure. The Receiving Party further agrees to immediately notify Disclosing Party of any actual or suspected misuse misappropriation, or unauthorized disclosure of Confidential Information, which may come to Receiving Party's attention."
+    },
+    {
+      "id": "c-024",
+      "heading": "6.4.5 Injunctive Relief for Breach",
+      "text": "6.4.5 Injunctive Relief for Breach. Because of the unique nature of the Confidential Information and other elements of the Parties business relationship, the Parties acknowledge and agree that a breach of any of the provisions of Section 6 of this Agreement by Receiving Party will irreparably harm the Disclosing Party. Accordingly, in the event of a breach or threatened breach of Section 6 of this Agreement, Disclosing Party will be entitled to seek injunctive relief to enforce the terms of Section 6 of this Agreement without the necessity of posting a bond or if a bond is required, at the minimum amount legally required."
+    },
+    {
+      "id": "c-025",
+      "heading": "7. Parties Relationship",
+      "text": "7. Parties Relationship 7.1 INDEPENDENT CONTRACTOR Developer is undertaking the services set forth in this Agreement as an independent contractor, working at Developer's own hours and using Developer's own equipment and at Developer's own chosen place of work, with discretion concerning the revision of Services and Deliverables within Client's general direction. Nothing contained in this Agreement will be construed to constitute the Parties as partners, employees, agents or joint ventures of each other. No Party will have the authority to bind the other Party in any respect."
+    },
+    {
+      "id": "c-026",
+      "heading": "7.2 NON-EXCLUSIVITY",
+      "text": "7.2 NON-EXCLUSIVITY Subject to the terms and conditions herein, the Parties expressly acknowledge that this Agreement does not create an exclusive business relationship between the Parties. Subject to the terms and conditions herein, Developer shall be entitled to offer and provide software design and development services to third parties solicit other clients and otherwise advertise its services."
+    },
+    {
+      "id": "c-027",
+      "heading": "8. Taxes",
+      "text": "8. Taxes Developer acknowledges and agrees that as an independent contractor, developer is responsible for the payment of such taxes and withholding on its income and activities as may be due under federal, state and local law and regulations. If appropriate, Developer will furnish Client with a Form 1099 or equivalent for the payments made to Developer."
+    },
+    {
+      "id": "c-028",
+      "heading": "9. Warranties and Representations",
+      "text": "9. Warranties and Representations 9.1 CLIENT Client represents, warrants and covenants that: (a) Client is a duly organized, validly existing and in good standing (b) Client has the full right and legal author y to enter into and fully perform its duties and obligations under this Agreement; (c) Client owns all right, title, and interest in, or otherwise has full right and authority to permit Developer's use of Content, Marks, Procedures and Client's Confidential Information, as detailed in this Agreement; (d) is solely responsible for compliance with all federal, ate, and local laws, rules, regulations, executive orders, ordinances, standards, and best practices applicable to Client's business or industry; and (e) Client will comply with all federal, state, and local laws, rules, regulations, executive orders, ordinances, standards, and best practices applicable to Client's business or industry."
+    },
+    {
+      "id": "c-029",
+      "heading": "10. Indemnification",
+      "text": "10. Indemnification 10 1 CLIENT Client shall defend, indemnify and hold harmless Developer, its member owners, officers, employees, independent contractors and agents, from and against all losses, claims, liabilities or damages and any related costs and expenses, including attorneys' fees and costs arising out of, or in any way related to any claim or action against Developer arising out of or in any way related to: (a) Client's breach of this Agreement; (b) a breach of any agreement between Client and its clients or customer; (c) Client's gross negligence or willful misconduct; (d) Client's act or omission constituting a violation of applicable federal, state, local law or regulation; or (e) any claim made against Client asserting a violation of any third party right."
+    },
+    {
+      "id": "c-030",
+      "heading": "10.2 DEVELOPER",
+      "text": "10.2 DEVELOPER Developer shall defend, indemnify and hold harmless Client, its members owners, officers, employees, independent contractors and agents, from and against all losses, claims, liabilities or damages and any related costs and expenses, including attorneys' fees and costs arising out of, or in any way related to any claim or action against Client arising out of or in any way related to: (a) Developer's material breach of his Agreement; (b) Developer's gross negligence or willful misconduct; (c) De eloper's act or omission constituting a violation of applicable federal, state, local law or regulation; or (d) any claim made against Client asserting a violation of any third party intellectual property right pertaining to the Subject Program."
+    },
+    {
+      "id": "c-031",
+      "heading": "10.3 NON DISPARAGEMENT CLAUSE",
+      "text": "10.3 NON DISPARAGEMENT CLAUSE The Client and the Designer both agree to never to disparage or speak ill of the other party to anyone and or post negative or disparaging comments Online regarding any of the Designer's products, services, affiliates, subsidiaries, officers, directors, employees or shareholders, and will take reasonable steps to prevent and will not knowingly permit any of their respective employees or agents to, disparage or speak ill of such persons. For purposes of this Section, \"disparage\" shall mean any negative statement whether written or oral, about Seattle Software Developers, Inc., Dot Com LLC. and or any of its affiliates. The Client and Designer both agree not to post on defamatory websites or review websites any negative posts concerning each other, the names of our companies, and our employees. Both the Client and the Designer both agree and acknowledge that this non-disparagement provision is a material term of this Agreement, the absence of which would have resulted in the Company refusing to enter into this Agreement. Subject to the terms, conditions, express representations and warranties provided in this Agreement, Designer and Client both agree to indemnify, save and hold armless each other from any and all damages, liabilities, costs, losses or expenses arising out of any finding of fact which is inconsistent with Designer's representations and warranties made herein, except in the event any such claims, damages, liabilities, costs, losses or expenses arise directly as a result of gross negligence or misconduct of Client."
+    },
+    {
+      "id": "c-032",
+      "heading": "11. Termination",
+      "text": "11. Termination 11.1 TERMINATION WITHOUT CAUSE Either Party may terminate this Agreement at any time during the term of this Agreement for any reason upon two weeks written notice to the other Party. Upon termination of this Agreement for any reason: (a) all provision of Service and Deliverables by Developer will immediately cease; (b) Client will pay Fees or all Services and Deliverables provided by Developer to Client up to and including the ate of termination; and (c) in compliance with Section 6.1 of this Agreement, Developer will transfer all Works to Client as of the date of termination."
+    },
+    {
+      "id": "c-033",
+      "heading": "11.2 TERMINATION FOR CAUSE",
+      "text": "11.2 TERMINATION FOR CAUSE This Agreement may be immediately terminated by notice of the terminating Party upon: (a) the other Party's material breach of this Agreement and fails to cure such default within ten (10) calendar days after receipt of a notice of default from the terminating Party; (b) if Client fails to pay to Developer any undisputed Fees when du and fails to cure any such breach within ten (10) calendar days after receiving notice from Developer of such failure; (c) misappropriation or unauthorized disclosure of Confidential Information by the Receiving Party; or (d) the other Party engages in any act or omission that is determined to be illegal or in violation of any applicable law or regulation."
+    },
+    {
+      "id": "c-034",
+      "heading": "11.3 OBLIGATIONS UPON TERMINATION",
+      "text": "11.3 OBLIGATIONS UPON TERMINATION If Client terminates this Agreement or any SOW for any reason, Client will pay Developer any Fees due and payable on the effective date of such termination or expiration, and Developer will refund to Client any non-accrued pre-paid Fees. In the event of a termination or expiration of this Agreement or any SOW for any reason, developer will, as requested by and at additional cost to Client, provide up to three (3) months of Fee billable assistance (collectively, the Termination Assistance Services) in transitioning from Developer to an alternative software service provider including, without limitation, the following: (a) knowledge transfer regarding the operation, use, and support of the subject Program; return of all documentation containing Content, Marks, Procedures a d Confidential Information in a format reasonably specified by Client and assistance with data migration to an alternative solution; and (c) any related additional services as requested by Client. Developer shall provide Termination Assistance Services to Client in a manner that does not interfere with, interrupt or degrade the Subject Program. The term of this Agreement or applicable SOW shall not be deemed to have expired or terminated until the Termination Assistance Services are completed."
+    },
+    {
+      "id": "c-035",
+      "heading": "12. General",
+      "text": "12. General 12.1 CHOICE OF LAW AND VENUE This Agreement will be governed by the laws of the State of Washington without regards for its conflict of laws principle. The Parties will conduct friendly negotiations to resolve any dispute arising from this Agreement, including mediation if requested by either Party. Should mediation fail, each party consents to the personal jurisdiction of the state and federal courts located in King County, Washington. If there is a dispute between the Parties relating to this Agreement, the Party substantially prevailing will be entitled to recover all costs and expenses of any subsequent proceeding (including trial, appellate, and arbitration proceedings), including reasonable attorneys' fees and costs incurred therein."
+    },
+    {
+      "id": "c-036",
+      "heading": "12.2 (General)",
+      "text": "12.2 NOTICE A notice required or permitted under this Agreement will be deemed given if in writing, and delivered by a Party in person, one (1) business day after being sent via overnight carrier, or three (3) business days after being sent by certified mail return receipt requested to the address set forth below, or such other address as may be supplied by either Party subsequently: If to Developer: SEATTLE SOFTWARE DEVELOPERS, INC 4-102ND AvenueNE, Suite 300 Bellevue, Washington 98004 IF to attorney: Copy to: Perkins Coie 1201 third avenue, Seattle, Washington 98101 Attn: LUCAS S. MICHELS, ESQ.\nIf to Client: Pelican Delivers Inc. Dave Comeau 5452 Pineridge Drive Bremerton, WA 983 360-731-6611"
+    },
+    {
+      "id": "c-037",
+      "heading": "12.3 SEVERABILITY",
+      "text": "12.3 SEVERABILITY If any provision of this Agreement is held by a court of law to be illegal, invalid or unenforceable: (a) that provision shall be deemed amended to achieve s nearly as possible the same economic and/or protective effect as the original provision; and (b) the legality, validity and enforceability of the remaining provisions of this Agreement shall not be affected or impaired thereby."
+    },
+    {
+      "id": "c-038",
+      "heading": "12.4 WAIVER",
+      "text": "12.4 WAIVER No delay or omission by either Party hereto to exercise any right or pow r occurring upon any noncompliance or default by the other Party with respect to a y of the terms of this Agreement shall impair any such right or power or be construed to be a waiver thereof. A waiver by either of the Parties hereto of any of the covenants, conditions, or agreements to be performed by the other shall not be construed to be a waiver of any succeeding breach thereof or of any covenant, condition, or agreement herein contained. Unless stated otherwise, all remedies provided for in is Agreement will be cumulative and in addition to and not in lieu of any other remedies available to either Party at law, in equity, or otherwise."
+    },
+    {
+      "id": "c-039",
+      "heading": "12.5 ASSIGNMENT",
+      "text": "12.5 ASSIGNMENT This Agreement will be binding on and inure to the benefit of the Parties their respective successors, assigns, heirs and personal representatives. Unless as provided herein, neither Party may assign, delegate, assign, nor subcontract their obligations and duties hereunder without the prior written consent of the non-assigning Party. Notwithstanding the foregoing, Developer may assign it rights and benefits under this Agreement, and delegate the performance of its obligations and duties hereunder, to any corporation or unincorporated business that is the successor to the business of Developer, without Client express or implied authorization."
+    },
+    {
+      "id": "c-040",
+      "heading": "12.6 OTHER DEFINITIONAL TERMS, TERMS OF CONSTRUCTION",
+      "text": "12.6 OTHER DEFINITIONAL TERMS, TERMS OF CONSTRUCTION The words hereof, herein and hereunder and words of similar import when used in this Agreement refer to this Agreement as a whole and not to any particular provision of this Agreement. The words include, includes and including shall be deemed to be followed by the phrase without limitation. Unless the context in which used herein otherwise clearly requires, or has the inclusive meaning represented by the phrase and/or. All incorporations by reference of covenants, terms, definitions or other provisions from other agreements are incorporated into this Agreement as if such provisions were fully set forth herein, and include all necessary definitions and related provisions from such other agreements. All covenants, terms, definition and other provisions from other agreements incorporated into this Agreement by reference will survive termination of this Agreement. References to statutes, regulations or laws, include any amendments, modifications or replacements of such statutes, regulations, or laws."
+    },
+    {
+      "id": "c-041",
+      "heading": "12.7 COUNTERPARTS",
+      "text": "12.7 COUNTERPARTS This Agreement may be executed in two or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and t e same instrument. Counterparts may be delivered via facsimile, e-mail (including pdf) or other transmission method, and any counterpart so delivered shall be deemed to have been duly and validly delivered and be valid and effective for all purposes."
+    },
+    {
+      "id": "c-042",
+      "heading": "12.8 ENTIRE AGREEMENT AND UNDERSTANDING",
+      "text": "12.8 ENTIRE AGREEMENT AND UNDERSTANDING This Agreement and Appendices hereto are the complete and exclusive statement of agreement of the Parties as to matters covered by it. This Agreement and its Appendices replaces and supersedes all prior written or oral agreement or statements by and among the Parties with respect to the matters covered by it. This Agreement may not be modified or amended except in writing signed by a duly authorized representative of each Party."
+    },
+    {
+      "id": "c-043",
+      "heading": "13. Acknowledgement by Client",
+      "text": "13. Acknowledgement by Client Client agrees to the terms of this Agreement and Appendices hereto an acknowledges receipt of a copy of this Agreement. IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective Date Acceptance by Developer By: /s/ Julian Valentine Julian Valentine, VP\nAcceptance by Client: By: /s/ Dave Comeau Dave Comeau, Shareholder"
+    },
+    {
+      "id": "c-044",
+      "heading": "SeattleSoftwareDevelopers",
+      "text": "SeattleSoftwareDevelopers"
+    },
+    {
+      "id": "c-045",
+      "heading": "SOFTWARE DEVELOPMENT AGREEMENT",
+      "text": "SOFTWARE DEVELOPMENT AGREEMENT\nPELICAN DELIVERS iOS APPLICATION ENHANCEMENTS & WEB APPLICATION DEVELOPMENT PHASE 1 4 102nd Ave NE Suite 300 Bellevue, WA 98004 (425) 256-2815 julian@seattlesoftwaredevelopers.com www .seattlesoftwaredeveIopers.com"
+    },
+    {
+      "id": "c-046",
+      "heading": "STATEMENT OF WORK - APPENDIX A",
+      "text": "STATEMENT OF WORK - APPENDIX A This Statement of Work is issued to and made part of that Software Development Agreement executed by and between Developer and Client on the Effective Date (the Agreement). Any word or phrase not otherwise defined in this Appendix will have the meaning ascribed in the Agreement."
+    },
+    {
+      "id": "c-047",
+      "heading": "1. Project",
+      "text": "1. Project Overview The purpose of this project is to develop additional features for the Pelican Delivers software. This includes POS integration, Google Maps API, payment processing features, ID verification, reporting, driver app improvement and workflow, and a front facing web application for customers to find, order, and receive products via deliver or pickup."
+    },
+    {
+      "id": "c-048",
+      "heading": "2. Specifications",
+      "text": "2. Specifications Number of applications included in Phase 1:1 Tech Stack: iOS (Objective - C or Swift), PhP, MySQL, AWS Hosting, jQuery, and JavaScript language: English Design: Custom to client"
+    },
+    {
+      "id": "c-049",
+      "heading": "3. Delivery Schedule",
+      "text": "3. Delivery Schedule Based on the current requirements and this SOW, Seattle Software Developers estimates that this project will take around six [4] months of development, testing, and deployment. This estimate may change depending on unforeseen circumstances or requirements. We estimate that the website (Customer Portal) will take 3 months to complete because this will be the priority."
+    },
+    {
+      "id": "c-050",
+      "heading": "4. Fee Payment Schedule Fees",
+      "text": "4. Fee Payment Schedule Fees: The Fees for the Project shall be $279,000.00 Payment Schedule: Client shall pay Developer: 20% Deposit ($55,800.00) to be paid at the start of the project. 20% ($55,800.00) to be paid upon completion of Milestone #1. 20% ($55,800.00) to be paid upon completion of Milestone #2. 20% ($55,800.00) to be paid upon completion of Milestone #3. 20% ($55,800.00) to be paid upon completion of Milestone #4.\n*Milestone Delivery Schedule for Phase 1\nMilestone #1 -January 1st, 2019 Milestone #2- February 1st, 2019. Milestone #3 - March 1st, 2019. Milestone #4 - April 1st, 2019."
+    },
+    {
+      "id": "c-051",
+      "heading": "5. Statement of Work Website (Customer Portal)",
+      "text": "5. Statement of Work Website (Customer Portal) Users will be able to go to the Pelican Delivers front-end website and easily search, browse, and order cannabis. Before a user can gain access to the website, they must first verify their birthday (users must be 21 and over to even view the website). · Header o There will be a header with a few basic informal menu items such as Home, How It Works, Features, etc. o To the very right there will be a Login/ Signup button and My Cart · Login / Signup o This will prompt the user to either Login or Signup for a new account o Login will ask the user for their email ID and password § If users have forgotten their password, they can click the \"Forgot Password\" link which will provide them with a recovery email · New users can select Sign-up and go through the quick and easy sign-up process. The application will ask for the user's: § Email § Password / Confirm Password § First Name § Last Name § Phone Number § Birthday · Profile o After the user logs in they can view their profile which will allow them to: § Edit their profile information § Add and verify their ID § Add delivery addresses § Select current delivery address o Users shall also be able to add their payment information § This is where the application will use Daily Pay and link to the customers bank · My Orders o Users can view their open orders, processing orders, in progress orders, and delivered § Open order - Customer has clicked checkout but has not paid, app is searching for drivers to fulfill the order.\n§ Processing order - A driver has accepted the delivery request and the dispensary has been alerted to prepare the products for pickup. Payment has been successfully submitted by the customer. § In progress order -The driver has purchased the product from the vendor and is now on the way to delivering the product to the customer. § Delivered order -The driver has delivered the product to the customer and the customer has confirmed receipt of the order. o Users can also access their history and re-order the same products from a dispensary."
+    },
+    {
+      "id": "c-052",
+      "heading": "5. Statement of Work Website (Customer Portal) (cont. 2)",
+      "text": "This feature clears their current cart and populates it with the products from the previous order. · Search o The search bar will be powered by Google Maps o Search results will vary depending on the user's current delivery address in their profile or they can search another address in the search field o Results can be viewed in either a \"Map View\" or a \"List View\" o The only dispensaries that will be displayed are ones that can delivery to that address and are open."
+    },
+    {
+      "id": "c-053",
+      "heading": "5. Statement of Work Website (Customer Portal) (cont. 3)",
+      "text": "Closed stores will be displayed at the bottom of the screen and be grayed out o Results will have the dispensaries logo, name, address, phone number, and open hours · Selecting Dispensary o When users select a dispensary, they'll be able to search for products, navigate through categories, view products details (farm, THC, CBD, etc.), and change the size of the item o To order a user can hover over the item and click \"Add to Cart\" o Once a product has been added to cart, the \"My Cart\" in the header will update o By going to \"My Cart\" users can check-out and pay · Payment o Users will pay by linking their bank accounts via Evergreen Gateway o Account information will be stored and used for future orders o Once payment is confirmed users may proceed to completing their order · Age / ID Verification o After payment is confirmed users must upload their government issued ID and a selfie o Trulioo will verify if the issued ID is valid and if the selfie matches the ID o Once verification is completed the user will be able to complete the order · Check out o If customer ID has been verified and the customer's cart is confirmed, the application will search for nearby drivers. § If a driver is found, the driver can either accept of decline the order · Drivers will be notified one at a time (queue system), with the river closest to the dispensary being notified first, then the next driver, etc. · Each driver will have a set amount of time (e.g. 10 seconds) to accept or reject the order, or the order will automatically be rejected by time and the lack of response will be recorded for future reference/internal driver ranking in the future. § If the driver accepts, the dispensary will be notified of the order § If the driver declines, the application will look for another drive o If no drivers are found, users will not be charged and will have the option to pick up the order in-store or browse for a new dispensary o If an order is accepted the dispensary will begin preparing the product for the driver to pick up o Customers will receive updates on the status of their order via SMS, email, or website Dispensary Portal Before dispensaries can access their account, they must provide the owners first and last n me, email, phone number, OBA, License Number, and upload a picture of their license. This process can be submitted manually or through an online form."
+    },
+    {
+      "id": "c-054",
+      "heading": "5. Statement of Work Website (Customer Portal) (cont. 4)",
+      "text": "Once Pelican verifies all their information, Pelican administrators can authorize the dispensaries account and the dispensary will be given credentials to access the dispensary portal. The application will have a database of business and license information provided by Pelican to help automate the verification process, however Pelican administrators must still manually authorize new dispensaries. · POS System o The application will tie into the dispensaries POS system and pull the inventory, product details, price, and quantity o The application will pull data from the POS system once every 1-2 hours o If a product is low, it will not be displayed on the front-end website or mobile apps § The low quantity can be defined by the dispensary § Ability for dispensary owner to input Username and Password for PO system connection using the Greenbits login to authenticate and connect. · Notifications o The application will notify dispensaries when an order comes through via § Email § Portal Notification § New orders will be listed at the top of the list · Orders o Dispensaries will be able to view the status of an order. New orders will be at the top of the list."
+    },
+    {
+      "id": "c-055",
+      "heading": "5. Statement of Work Website (Customer Portal) (cont. 5)",
+      "text": "The order will either be for pickup or delivery. § If the order is for pick up the dispensary just needs to prepare the order and wait for the customer to arrive § If the order is for delivery the dispensary will prepare the order and view the driver associated to that order § Once the driver comes in to pay and pick-up the order the dispensary ill verify the driver by matching the order ID and having the driver release funds for the purchase § After funds have been released the status of the order will be automatically updated and the dispensary the driver will begin delivering the product to the customer o Dispensaries can run basic reports on orders § Products § Dates § Product / Product Details § Quantity § Product Size § Delivery Address I City § Revenue · Products o Products will be populated by pulling inventory from POS system § Script will run every 1-2 hours to update the inventory o Have the ability to associate multiple images to products Admin Portal · Verifications o Admins will manually verify new dispensaries that sign-up by reviewing their uploaded documents § Once verified they can select \"Approved\" and that will grant the dispensary access to the portal · If accepted, it will send an automated email to the dispensary notifying them § Admins can decline the application. · If declined it will send an automated email to the dispensary notifying them o Driver ID and License verification § Driver applications displayed here with uploaded licenses · Drivers will have to fill out and upload a 1099 or w-9 tax document. · Once all documents are verified a green check mark next to \"background check\" will appear · Reports Reports will be very basic for phase 1. Seattle Software Developers will try their best to complete the following features in Phase 1 but will not be penalized if they are pushed to Phase 2. o Dispensary orders by history/volume over custom time periods o Order Details broken down by dispensary o Driver transaction history · User management o User creation/management for dispensaries, drivers and customers, including viewing basic profile information and password resets. o Ability to add funds to driver, dispensaries and customers to their Pelican accounts."
+    },
+    {
+      "id": "c-056",
+      "heading": "5. Statement of Work Website (Customer Portal) (cont. 6)",
+      "text": "Back-end Development · Evergreen Gateway o Customer payments go into Evergreen Gateway o Payments are distributed from Evergreen Gateway via Daily Pay to drivers and dispensaries · Daily Pay o Customer orders the product and pays Pelican through Evergreen Gateway. o Payment is held in Pelican's escrow account in Evergreen Gateway. o Order goes into a pending / processing status. o When the driver goes to pick up the product, he/she brings up the order and hits \"release funds\" in the phone after verifying the order. o The money goes to the dispensaries Daily Pay account, and they can withdraw from the Evergreen Gateway accounts through the daily pay application / APL o When the driver delivers the order and customer acknowledges order received, then the driver and Pelican get paid. o Stores and Drivers will both have Daily Pay accounts tied to their bank accounts. o Driver will scan the customers ID using the Trulioo API right before they handle the delivery to the customer. After this last ID check, the transaction will be completed. · Trulioo o Will be used to verify government issued IDs o Compare and match users ID with selfie's o Make sure users are of age · Twilio o Will be used for client to customer communication during an order · Payouts, Subscription fees, flat fees, commissions fees § Commission fees - 25% commission on delivery orders."
+    },
+    {
+      "id": "c-057",
+      "heading": "5. Statement of Work Website (Customer Portal) (cont. 7)",
+      "text": "Admin will have the ability to change the % or fee based on dispensary § Flat fees - $1 in store pickup orders through the app or website § Subscription Fee - $500 a month subscription per store · Top sponsors will pay $750 instead of $500 § Withdrawing Fee - $1 fee added to the existing daily pay fees § Delivery fee - 20% of delivery fee will go to Pelican. 80% will go to driver · Integrating with Dispensaries POS system o Dispensaries menu should be searchable for web. o Spider / crawling SEO o Only working on integrating with Greenbits for phase 1 · State Module - Creating state rules o Legal age to purchase o State is recreational or medical or both o Purchase limits - how much product can a customer purchase at a time o If Medical Marijuana State - we will need an upload feature for customers to upload their medical marijuana recommendation (no medical orders will be allowed in phase 1) · Dispensary Sign Up o When new retail shops sign up, they will have a list of available zip codes o Only one dispensary per zip code will be allowed o Once a zip code is claimed it will not be available until that dispensary stops he monthly fee or gets removed from the system Driver Companion App (iOS) The driver companion app will be available on the iOS platform for Phase 1 but will eventually be made available on Android. The companion app will allow drivers to signup, become authenticate and authorized by Pelican, create/link their payment accounts, view orders, choose to confirm orders, navigate to dispensaries/customers, and view order histories. Ability to \"Start\" and \"End\" shift. Makes driver active or inactive. · Login / Signup o This will prompt the driver to either Login or Signup for a new account o Login will ask the drivers for their email ID and password § If drivers have forgotten their password, they can click the \"Forgot Password\" link which will provide them with a recovery email o New drivers can select Sign-up and go through the quick and easy sign-up process."
+    },
+    {
+      "id": "c-058",
+      "heading": "5. Statement of Work Website (Customer Portal) (cont. 8)",
+      "text": "The application will ask for the user's: § Email § Password / Confirm Password § First Name § Last Name § Phone Number § Birthday § Driver's License § Car License Plate # § Car Make/Model and photo § Driver Photo § Upload car insurance paperwork · Profile o After the driver logs in they can view their profile which will allow them to: § Edit their profile information § Change Password § Submit vehicle change information § Set Delivery Radius (open orders within this radius will be shown to the driver) § Drivers can also add their bank account information and withdraw Daily Pay funds\n· Delivery Info o Drivers can view Open Orders within their radius and select them for deliver § Time estimates will come based on Google API § Once a driver has selected an Open Order and the customer has completed the purchase, the Order changes to Processing Order and allows the Driver to navigate to the Dispensary. § After arriving at the dispensary, driver can press \"Order Pickup\", which signals the driver has purchased the product from the dispensary. § Driver can then navigate to the customer for product delivery, customer can view driver's eta based on their location and Google navigation results. § If the driver has any issues with product pickup or delivery, they can contact the customer via SMS (using Twilio API) § Upon arrival at customer location, driver must verify customer identity by taking a picture of/scanning the customer's ID. Once the customer's ID is verified and the product is delivered, the customer must confirm receipt of the product for the order to be considered complete. · Delivery History o Drivers will be able to view their previous deliveries"
+    },
+    {
+      "id": "c-059",
+      "heading": "7. Acknowledgement by Client",
+      "text": "7. Acknowledgement by Client Client agrees to the terms of the Statement of work Appendix A hereto attached and acknowledges receipt of a copy of this Agreement. IN WITNESS WHEREOF, the Parties have executed this Agreement as of the Effective Date. Acceptance by Developer SEATTLE SOFTWARE DEVELOPERS, Inc. By: /s/ Julian Valentine Julian Valentine, VP\nAcceptance by Client: PELICAN DELIVERS INC. By: /s/ Dave Comeau Dave Comeau, Shareholder"
+    }
+  ]
+}
