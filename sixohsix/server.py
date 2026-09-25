@@ -1,4 +1,5 @@
 import json
+import threading
 from pathlib import Path
 from typing import Literal
 
@@ -79,12 +80,41 @@ def memo_docx(case_id: str, runner: Literal["agent", "baseline"] = "agent"):
     )
 
 
-@app.post("/api/cases/{case_id}/run")
+# Live agent runs by case id: {status: idle|running|done|error, steps: [...], error}.
+RUNS: dict[str, dict] = {}
+RUNS_LOCK = threading.Lock()
+
+
+def step_label(step) -> str:
+    arg = "…" if step.tool == "submit_analysis" else ", ".join(map(str, step.input.values()))
+    return f"{step.tool}({arg[:60]})"
+
+
+def run_in_background(case: Case, ref: Reference) -> None:
+    run = RUNS[case.id]
+    try:
+        result = evaluate.run_one("agent", case, ref, on_step=lambda st: run["steps"].append(step_label(st)))
+        evaluate.merge("agent", [result], {c.id for c, _ in load_cases()})
+        run["status"] = "done"
+    except Exception as e:
+        run.update(status="error", error=str(e))
+
+
+@app.post("/api/cases/{case_id}/run", status_code=202)
 def run_agent(case_id: str):
-    find(case_id)
+    case, ref = find(case_id)
     if not evaluate.has_key():
         raise HTTPException(409, "ANTHROPIC_API_KEY is not set on the server, so the agent can't run. Add it to .env and restart.")
-    fresh = evaluate.run("agent", load_cases(), only=case_id)
-    if not fresh:
-        raise HTTPException(502, "The agent run failed. Check the server log.")
-    return fresh[0]
+    with RUNS_LOCK:
+        if RUNS.get(case_id, {}).get("status") == "running":
+            raise HTTPException(409, f"The agent is already running on {case_id}.")
+        RUNS[case_id] = {"status": "running", "steps": [], "error": None}
+    threading.Thread(target=run_in_background, args=(case, ref), daemon=True).start()
+    return {"status": "running"}
+
+
+@app.get("/api/cases/{case_id}/run")
+def run_status(case_id: str):
+    find(case_id)
+    run = RUNS.get(case_id, {"status": "idle", "steps": [], "error": None})
+    return {**run, "step_count": len(run["steps"]), "steps": run["steps"][-5:]}
