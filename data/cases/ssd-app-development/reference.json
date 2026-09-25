@@ -4,12 +4,28 @@
     {
       "kind": "services",
       "timing": "over_time",
-      "clauses": ["c-003", "c-005", "c-010", "c-019", "c-032", "c-047", "c-050"],
-      "rationale": "Building the Pelican customer web portal, dispensary and admin portals, back end and iOS driver app is one integrated custom-development obligation, because the milestone deliverables feed a single Subject Program that is acceptance-tested as a whole. It is satisfied over time because the code is the client's work made for hire, with no alternative use to the developer, and the client must pay for all work performed up to any termination. Judgment call: the four milestones could be argued as separate deliverables, but the final whole-program acceptance ties them together."
+      "clauses": [
+        "c-003",
+        "c-005",
+        "c-010",
+        "c-019",
+        "c-032",
+        "c-034",
+        "c-047",
+        "c-050"
+      ],
+      "rationale": "Building the Pelican customer web portal, dispensary and admin portals, back end and iOS driver app is one integrated custom-development obligation satisfied over time, because the milestones feed one Subject Program tested as a whole, the code is the client's work made for hire with no alternative use, and on termination the client pays for work done to date; judgment call: section 11.3 limits payment to fees already due and section 6.1 hands over the code only on payment in full, which a reviewer could read as no enforceable right to payment for work in progress and so recognition at final acceptance."
     }
   ],
   "variable": true,
   "royalty_exception": false,
   "rationale": "The fixed fee is $279,000, billed as a 20% deposit and 20% at each of four milestones; those payments are a billing schedule, not a measure of progress. The early-completion bonus in section 5.3 is variable consideration; its amount is never stated in the SOW, so it stays fully constrained until earned. On termination the client pays for work to date and the developer refunds unearned prepaid fees. Change orders are contract modifications, and termination-assistance hours are optional purchases. The commissions and subscription fees listed in the SOW are features of Pelican's app, not payments to the developer.",
-  "clauses": ["c-015", "c-016", "c-017", "c-032", "c-034", "c-050"]
+  "clauses": [
+    "c-015",
+    "c-016",
+    "c-017",
+    "c-032",
+    "c-034",
+    "c-050"
+  ]
 }

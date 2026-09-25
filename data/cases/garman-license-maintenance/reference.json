@@ -4,24 +4,45 @@
     {
       "kind": "license_functional",
       "timing": "point_in_time",
-      "clauses": ["c-003", "c-004", "c-006", "c-008", "c-009", "c-010"],
-      "rationale": "The perpetual license to run Garman's routing software, delivered with the Schedule D modifications and installation, is a license to IP as it exists; control passes at acceptance because until then Sparkling can reject the software and recover everything it paid. Judgment call: the modifications are combined with the license rather than treated as a separate service, because acceptance is tested against Specifications that include them, and the full refund on rejection rules out over-time recognition of the combined item."
+      "clauses": [
+        "c-003",
+        "c-004",
+        "c-006",
+        "c-008",
+        "c-009",
+        "c-010",
+        "c-020"
+      ],
+      "rationale": "The license to run Garman's routing software while fees are paid, delivered with the Schedule D modifications and installation, is a license to IP as it exists that transfers at acceptance, because until then Sparkling can reject the software and recover everything it paid; judgment call: the modifications are combined with the license because acceptance is tested against Specifications that include them, and the full refund on rejection rules out over-time recognition of the combined item."
     },
     {
       "kind": "services",
       "timing": "over_time",
-      "clauses": ["c-007"],
-      "rationale": "Training of Sparkling's staff at each location is a service Sparkling could buy from others and benefits from as it is delivered, so it is a separate obligation. Judgment call: a reviewer could fold it into the license because it happens before acceptance testing, but it does not modify the software."
+      "clauses": [
+        "c-007"
+      ],
+      "rationale": "Training Sparkling's staff at each location is a service Sparkling could buy elsewhere and benefits from as it is delivered, so it is a separate obligation satisfied over time; judgment call: a reviewer could fold it into the license because it happens before acceptance testing, but it does not change the software."
     },
     {
       "kind": "support",
       "timing": "over_time",
-      "clauses": ["c-012", "c-013"],
-      "rationale": "For a renewable one-year term from the Maintenance Commencement Date, Garman stands ready to deliver when-and-if-available updates, telephone support and repairs, so maintenance is a separate obligation satisfied over time. Updates and support are kept together as one stand-ready service."
+      "clauses": [
+        "c-012",
+        "c-013"
+      ],
+      "rationale": "For a renewable one-year term from the Maintenance Commencement Date, Garman stands ready to provide when-and-if-available updates, telephone support and repairs, which together form one support obligation satisfied over time."
     }
   ],
   "variable": false,
   "royalty_exception": false,
   "rationale": "Fees are set in the Schedule A Fee Schedule, which is not in the filing, and nothing in the body ties them to usage or sales. Judgment call: the refund on rejection is handled through acceptance timing rather than as variable consideration. Use at additional locations, future installations and repairs for excluded causes are billed separately as options, not as part of this price. Maintenance renews annually on payment, and the license continues while fees are paid.",
-  "clauses": ["c-004", "c-006", "c-010", "c-012", "c-013", "c-014", "c-020"]
+  "clauses": [
+    "c-004",
+    "c-006",
+    "c-010",
+    "c-012",
+    "c-013",
+    "c-014",
+    "c-020"
+  ]
 }

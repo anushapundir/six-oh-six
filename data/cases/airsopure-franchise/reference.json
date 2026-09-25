@@ -4,18 +4,35 @@
     {
       "kind": "license_symbolic",
       "timing": "over_time",
-      "clauses": ["c-003", "c-005", "c-008", "c-009", "c-015", "c-017", "c-023"],
-      "rationale": "The franchise right to run an Airsopure Center under the Airsopure marks and system is symbolic IP whose value Airsopure keeps supporting by protecting the marks, updating the Operations Manual and giving ongoing advice, so it is a right to access recognized over the 10-year term. Judgment call: the pre-opening site approval, specifications and initial training are folded into this license because a franchisee gets no use from them without the franchise right; the private-company franchisor expedient does not apply to this public filer."
+      "clauses": [
+        "c-003",
+        "c-005",
+        "c-008",
+        "c-009",
+        "c-015",
+        "c-017",
+        "c-023"
+      ],
+      "rationale": "The franchise right to run an Airsopure Center under the Airsopure marks and system is symbolic IP that Airsopure keeps supporting by protecting the marks, updating the Operations Manual and advising franchisees, so it is a right to access recognized over the 10-year term; judgment call: the pre-opening site approval, specifications and initial training are folded into this license because a franchisee gets no use from them without the franchise right."
     },
     {
       "kind": "goods",
       "timing": "point_in_time",
-      "clauses": ["c-008", "c-013"],
-      "rationale": "The required opening order of $5,000 to $10,000 of Airsopure products is a sale of goods, distinct from the license, and control passes when the products ship to the franchisee. Later product orders are optional purchases at then-current prices, not part of this contract."
+      "clauses": [
+        "c-008",
+        "c-013"
+      ],
+      "rationale": "The required opening order of $5,000 to $10,000 of Airsopure products is a sale of goods distinct from the license, with control passing when the products ship, and later orders at then-current prices are optional purchases outside this contract."
     }
   ],
   "variable": true,
   "royalty_exception": true,
   "rationale": "The $25,000 initial franchise fee is non-refundable except that Airsopure may, at its discretion, refund up to 70% if no site is agreed, which makes it variable. The 5% royalty and the 2% Advertising Fund fee are both paid to Airsopure on the franchisee's gross sales, so they are sales-based royalties on a license of IP and are recognized as those sales occur. The 2% local advertising amount is spent by the franchisee, not paid to Airsopure, so it is not consideration. Renewal and transfer fees are optional future purchases.",
-  "clauses": ["c-006", "c-007", "c-013", "c-030", "c-032"]
+  "clauses": [
+    "c-006",
+    "c-007",
+    "c-013",
+    "c-030",
+    "c-032"
+  ]
 }

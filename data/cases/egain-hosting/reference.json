@@ -4,12 +4,22 @@
     {
       "kind": "saas",
       "timing": "over_time",
-      "clauses": ["c-001", "c-002", "c-003", "c-004", "c-015"],
-      "rationale": "eGain promises Eliance web access to software running on eGain's servers, with updates, maintenance and 24x7 phone support, for a renewing one-year term; that is one stand-ready hosting service Eliance consumes each month. Judgment call: support and updates only matter inside the hosted service and follow the same monthly pattern, so they are not split out, and the downloadable component in section 3 can be used only with the hosting, so no separate software license transfers."
+      "clauses": [
+        "c-001",
+        "c-002",
+        "c-003",
+        "c-004",
+        "c-015"
+      ],
+      "rationale": "eGain gives Eliance web access to software on eGain's servers, with updates, maintenance and 24x7 phone support, as one stand-ready hosting service consumed monthly over a renewing one-year term; judgment call: support and updates are not split out because they only matter inside the hosted service, and the downloadable component in section 3 works only with the hosting, so no software license transfers."
     }
   ],
   "variable": true,
   "royalty_exception": false,
   "rationale": "The monthly hosting fee is fixed per term, but Additional Fees accrue by usage and are billed the month after they accrue, and Downtime reduces the monthly fee through service-day credits; both make the transaction price variable. No license of IP transfers to Eliance, so the royalty exception does not apply. Exhibit A, which holds the actual fees, is not in the filing, and any deployment or training work would sit in a separate signed Statement of Work.",
-  "clauses": ["c-002", "c-006", "c-008"]
+  "clauses": [
+    "c-002",
+    "c-006",
+    "c-008"
+  ]
 }
