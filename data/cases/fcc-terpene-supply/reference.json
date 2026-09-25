@@ -1,0 +1,15 @@
+{
+  "status": "draft",
+  "obligations": [
+    {
+      "kind": "goods",
+      "timing": "point_in_time",
+      "clauses": ["c-003", "c-004", "c-008", "c-016"],
+      "rationale": "Each shipment of terpene product is a good whose control passes at FCC's Winter Haven facility, since delivery is FOB there and Flotek arranges transport, so revenue is recognized at shipment. Judgment call: the agreement commits no quantity except the annual Minimum Quantity FCC may ship and invoice, so the enforceable contract is each accepted purchase order plus that minimum; replacing defective product is an assurance warranty, not a separate obligation."
+    }
+  ],
+  "variable": true,
+  "royalty_exception": false,
+  "rationale": "Judgment call: the price per pound is FCC's raw-material cost, plus a fixed allocation for other manufacturing costs, plus a fixed margin. The price is known at each shipment, but for the committed Minimum Quantity it depends on future costs, so that part of the consideration is variable until each shipment. The force majeure clause also refers to reducing a \"Target Margin\" that the contract never defines. Price or margin changes need written agreement, so they are contract modifications, not variable consideration.",
+  "clauses": ["c-003", "c-006", "c-008", "c-009", "c-012"]
+}

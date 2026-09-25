@@ -1,0 +1,15 @@
+{
+  "status": "draft",
+  "obligations": [
+    {
+      "kind": "license_functional",
+      "timing": "point_in_time",
+      "clauses": ["c-012", "c-013", "c-025", "c-027"],
+      "rationale": "JHU grants a non-exclusive license to make and sell products under its issued active-cannula patents, which Virtuoso can use as they exist; patent prosecution is at JHU's sole discretion and does not change what the patents let Virtuoso do, so the license is functional IP transferred when granted."
+    }
+  ],
+  "variable": true,
+  "royalty_exception": true,
+  "rationale": "Fixed consideration is the $2,000 license fee plus shares equal to 5% of Virtuoso's fully diluted stock, a noncash payment measured at fair value. The 4% running royalty on net sales and net service revenues is a sales-based royalty on a license of IP, so JHU recognizes it only as the sales occur. Judgment call: the $3,000 minimum annual royalties are not locked in, because Virtuoso can terminate on 60 days' notice. The 1% liquidity-event fee is not sales- or usage-based, so it is ordinary variable consideration, estimated and constrained until a sale or IPO is probable.",
+  "clauses": ["c-015", "c-016", "c-017", "c-028", "c-049", "c-050", "c-051", "c-054", "c-056"]
+}
