@@ -14,7 +14,7 @@ def tokens(text: str) -> list[str]:
 
 
 def search(clauses: list[Clause], query: str, k: int = 5) -> list[Clause]:
-    # ponytail: re-indexes per call; contracts are tens of clauses, cache the index if they grow to thousands.
+    # Re-indexes per call: contracts are tens of clauses. Cache the index if that changes.
     docs = [Counter(tokens(f"{c.heading} {c.text}")) for c in clauses]
     if not docs:
         return []
