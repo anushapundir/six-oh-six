@@ -1,0 +1,21 @@
+{
+  "status": "draft",
+  "obligations": [
+    {
+      "kind": "license_functional",
+      "timing": "point_in_time",
+      "clauses": ["c-002", "c-003"],
+      "rationale": "On-premises license to software that is fully functional on delivery and runs on the customer's servers. Recognized when the customer can download and use it."
+    },
+    {
+      "kind": "support",
+      "timing": "over_time",
+      "clauses": ["c-005"],
+      "rationale": "Stand-ready support and when-and-if-available updates for three years, a series satisfied ratably."
+    }
+  ],
+  "variable": true,
+  "royalty_exception": true,
+  "rationale": "The 1.5% royalty on Net Sales is a sales-based royalty on a license of IP, so it is recognized as the customer's sales occur rather than estimated up front. The late fee is a customer breach remedy, not variable consideration for the promised goods.",
+  "clauses": ["c-006"]
+}
