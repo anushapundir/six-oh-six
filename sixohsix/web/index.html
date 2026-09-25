@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>six-oh-six</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="name">six-oh-six</span>
+      <span class="tagline">ASC 606 revenue analysis, cited to the clause</span>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="cases" aria-selected="true">Cases</button>
+      <button role="tab" data-tab="scoreboard" aria-selected="false">Scoreboard</button>
+    </nav>
+  </header>
+
+  <main id="cases" class="view cases-view">
+    <aside class="col list-col">
+      <h2 class="col-title">Contracts</h2>
+      <ul id="case-list" class="case-list"></ul>
+    </aside>
+    <section class="col contract-col">
+      <div id="contract-head" class="contract-head"></div>
+      <ol id="clauses" class="clauses"></ol>
+    </section>
+    <section class="col analysis-col">
+      <div class="runner-toggle" role="group" aria-label="Runner">
+        <button data-runner="agent" aria-pressed="true">Agent</button>
+        <button data-runner="baseline" aria-pressed="false">Baseline</button>
+      </div>
+      <div id="analysis"></div>
+    </section>
+  </main>
+
+  <main id="scoreboard" class="view board-view" hidden></main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
